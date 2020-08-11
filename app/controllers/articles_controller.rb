@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-include ArticlesHelper
+  include ArticlesHelper
   def index
     @articles = Article.all
   end
@@ -31,7 +31,7 @@ include ArticlesHelper
     flash.notice = "Article '#{@article.title}' Created!"
     redirect_to article_path(@article)
   end
-  
+
   def destroy
     @article = Article.find(params[:id])
     @article.destroy
