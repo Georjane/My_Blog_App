@@ -1,15 +1,16 @@
-$primary_color: #AAA;
+$primary_color: #aaa;
 
 body {
   background-color: $primary_color;
   font: {
-    family: Verdana, Helvetica, Arial;
+    family: verdana, helvetica, arial;
     size: 14px;
   }
 }
 
 a {
-  color: #0000FF;
+  color: #00f;
+
   img {
     border: none;
   }
